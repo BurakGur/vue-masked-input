@@ -70,6 +70,7 @@ export default {
     },
     value: function value(newValue) {
       if (this.maskCore) this.maskCore.setValue(newValue); // For multiple inputs support
+      this.updateToCoreState();
     }
   },
 
@@ -128,6 +129,7 @@ export default {
                 }
               }
             }
+            /* eslint-enable */
           });
         }
         [].concat(_toConsumableArray(this.$refs.input.value)).reduce(function (memo, item) {
