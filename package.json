@@ -1,7 +1,7 @@
 {
   "name": "@burakgur/vue-masked-input",
   "description": "Masked input component for Vue.js 2.X",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "burakgur",
   "license": "MIT",
   "homepage": "https://github.com/BurakGur/vue-masked-input",
